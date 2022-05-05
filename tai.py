@@ -11,7 +11,7 @@ import os
 try:
     import requests
 except ImportError:
-    print '\n [×] Modul requests belum terinstall!...\n'
+
     os.system('pip2 install requests')
 
 try:
